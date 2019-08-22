@@ -1,4 +1,4 @@
-const express = require('express');n
+const express = require('express');
 const app = express();
 require('dot.env', ).config()
 
@@ -16,7 +16,6 @@ app.get('/', cb);  // execute call back that handles request and response. app.g
 app.listen(3001, ()=>{   // 
 console.log('express server running');
 }); //call back function
-
 
 
 
